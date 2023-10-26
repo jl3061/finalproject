@@ -40,17 +40,6 @@ riddles <- getRiddles()
 To play riddlerontheroof:
 ```{r}
 riddlemethis(riddles)
-
-# What measures out time. Until in time all is smashed to it? 
-# Your answer ('Q' to exit): 
-# WRONG. The correct answer was:  Sand 
-# Ten men's strength, ten men's length. Ten men can't break it, yet a young boy walks off with it. 
-# Your answer ('Q' to exit): rope
-# Good job!
-# A tiny bead, like fragile glass, strung along a cord of grass. 
-# Your answer ('Q' to exit): Q
-# Quitting the game. Score:  1 
-# NULL
 ```
 
 To add your own riddles:
