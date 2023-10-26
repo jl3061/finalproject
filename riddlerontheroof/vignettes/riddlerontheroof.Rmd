@@ -1,0 +1,66 @@
+---
+title: "riddlerontheroof"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{riddlerontheroof}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package serves as a distraction for anyone experiencing pain or sadness from coding.
+It will randomly generate riddles from a preloaded list of riddles (included in package).
+Riddles from https://github.com/crawsome/PyRPG_Mini.git
+
+There are 4 functions included in this package:
+1) getRiddles
+2) riddlemethis
+3) addriddles
+4) howmanyRiddles
+
+Below, I will go over what each function does (it's quite simple).
+
+Load the package:
+```{r setup}
+library(riddlerontheroof)
+```
+
+To load riddles:
+**Make sure to always load riddles onto object 'riddles'**
+```{r}
+riddles <- getRiddles()
+```
+
+To play riddlerontheroof:
+```{r}
+riddlemethis(riddles)
+
+# What measures out time. Until in time all is smashed to it? 
+# Your answer ('Q' to exit): 
+# WRONG. The correct answer was:  Sand 
+# Ten men's strength, ten men's length. Ten men can't break it, yet a young boy walks off with it. 
+# Your answer ('Q' to exit): rope
+# Good job!
+# A tiny bead, like fragile glass, strung along a cord of grass. 
+# Your answer ('Q' to exit): Q
+# Quitting the game. Score:  1 
+# NULL
+```
+
+To add your own riddles:
+```{r}
+addRiddles("What has to be broken before you use it?", "egg")
+```
+
+To see how many riddles you have:
+```{r}
+howmanyRiddles(riddles)
+```
+
+Thanks!
