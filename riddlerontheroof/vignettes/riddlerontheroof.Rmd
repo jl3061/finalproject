@@ -33,9 +33,6 @@ library(riddlerontheroof)
 
 To load riddles:
 **Make sure to always load riddles onto object 'riddles'**
-```{r}
-riddles <- getRiddles()
-```
 
 To play riddlerontheroof:
 ```{r}
