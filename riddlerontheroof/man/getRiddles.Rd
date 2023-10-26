@@ -6,10 +6,10 @@
 This function allows you to add the riddles to your environment.
 Riddles from https://github.com/crawsome/PyRPG_Mini.git}
 \usage{
-getRiddles(file_path = "data/riddles.csv")
+getRiddles()
 }
 \arguments{
-\item{file_path}{File path for preloaded riddles excel/csv file.}
+\item{file_path}{File path for preloaded riddles rda file.}
 }
 \description{
 playRiddles
