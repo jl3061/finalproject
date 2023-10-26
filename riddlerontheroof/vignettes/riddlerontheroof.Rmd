@@ -31,9 +31,6 @@ Load the package:
 library(riddlerontheroof)
 ```
 
-To load riddles:
-**Make sure to always load riddles onto object 'riddles'**
-
 To play riddlerontheroof:
 ```{r}
 riddlemethis(riddles)
