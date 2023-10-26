@@ -6,7 +6,7 @@
 #' @examples
 #' riddles <- getRiddles()
 
-getRiddles <- function(file_path = "/data/riddles.csv") {
+getRiddles <- function(file_path = "data/riddles.csv") {
   riddles <- read.csv(file_path)
   return(riddles)
 }
